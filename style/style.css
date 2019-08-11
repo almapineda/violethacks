@@ -1,0 +1,317 @@
+/*-----------Body--------*/
+body {
+    margin: auto;
+    font-family: "Karla", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: var(--main-background-color);
+    color: var(--main-subtext-color);
+    text-decoration: none;
+    font-family: "Karla", sans-serif;
+    --main-background-color: #ffffff;
+    --main-work-color: #ffffff;
+    --main-text-color: #272D2D;
+    --main-subtext-color: #7DBBE6;
+    --work-hover-color:#DDDDDD;
+    --a-color: #F4CBB2;
+    272D2D
+}
+
+/*-----------Fonts-------*/
+p {
+  font-weight: 200;
+  font-size: 19px;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: var(--a-color);
+}
+b{
+}
+.h1 {
+  font-family: "Karla", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 40px;
+  padding-left: 70px;
+  padding-right: 70px;
+  text-decoration: none;
+  color: var(--main-text-color);
+}
+.h2 {
+  margin-top: 0px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 0px;
+  color: var(--main-subtext-color);
+}
+.h4 {
+  font-weight: 300;
+  font-size: 18px;
+  font-color: #fff
+  line-height: 28px;
+  margin-bottom: 2px;
+  margin-top: 10px;
+}
+
+.h5 {
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 4px;
+  margin-bottom: 12px;
+}
+/*-----------Landing-------*/
+#header-bar{
+  width: 100%;
+  background-color: #211F1F;
+  height: 70px;
+  top: 0px;
+}
+#home-box{
+  width: 100%;
+  background-color: #211F1F;
+  height: 70px;
+  top: 0px;
+}
+
+
+#landing-page {
+  display:flex;
+}
+#home-textbox {
+  position: relative;
+  width: 100%;
+  float: center;
+  text-align: center;
+  }
+#home-textbox > div {
+  width: 100%;
+  margin-top: 40px;
+}
+#home-icon {
+  /*width: 100%;
+  z-index: 1;
+  width: 40%;*/
+  float: left;
+}
+#home {
+  padding-top: 15px;
+  width: 40px;
+  margin: 0vh;
+  padding-left: 15px;
+}
+#about-box {
+  width: 80%;
+  padding-left: 70px;
+}
+.home-title {
+  padding-top: 10px;
+}
+.about-pic {
+  width: 30%;
+  float: left;
+  margin-bottom: -5px;
+  border-radius: 10px;
+  margin: 4px 10px 20px 0px;
+}
+
+/*-----------Work-------*/
+.all_work {
+  width: 100%;
+  position: absolute;
+  right: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.work {
+  width: 300px;
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  margin-left: 1%;
+  margin-right: 1%;
+  /*box-shadow: 0 4px 6px 0 rgba(0,0,0,0.1);*/
+  transition: 0.25s;
+  /*background-color: #ededed;*/
+  background-color: var(--main-work-color);
+  font-weight: 400;
+}
+
+.work:hover {
+  transition: 0.25s;
+  background-color: var(--work-hover-color);
+}
+
+.column:hover {
+  background-color: white;
+  animation: shake 1s;
+  animation-iteration-count: infinite;
+
+}
+
+.column:hover >.achievements-pic >.aopaque {
+  opacity: 1;
+  transition: 0.25s;
+}
+
+.column{
+  width: 300px;
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  margin-left: 1%;
+  margin-right: 1%;
+  /*box-shadow: 0 4px 6px 0 rgba(0,0,0,0.1);*/
+  transition: 0.25s;
+  /*background-color: #ededed;*/
+  background-color: var(--main-work-color);
+  font-weight: 400;
+}
+.column-pic{
+  display: block;
+  width: 140px;
+  margin: 2.9%;
+  height: 140px;
+  border-radius: 12px;
+}
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.work-pic {
+  display: block;
+  width: 280px;
+  margin: 2.9%;
+  height: 280px;
+  border-radius: 12px;
+  /*background-color: #ededed;*/
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: center;
+  transition: 0.25s;
+}
+
+.achievements-pic{
+  display: block;
+  width: 280px;
+  margin: 2.9%;
+  height: 280px;
+  border-radius: 12px;
+  /*background-color: #ededed;*/
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: center;
+  transition: 0.25s;
+}
+.opaque {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  opacity: 0;
+  /*background-color: #F5F5F5;*/
+  background-color: #ededed;
+}
+.aopaque{
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  opacity: 0;
+  /*background-color: #F5F5F5;*/
+  background-color: #ededed;
+}
+.text_overlay {
+  color: black;
+  padding: 40 40 40 40;
+  text-align: left;
+  float: center;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 4px;
+  margin-bottom: 12px;
+}
+#streak-count{
+  font-size: 70;
+}
+
+.work:hover > .work-pic > .opaque {
+  opacity: 1;
+  transition: 0.25s;
+}
+
+.work-text {
+  display: block;
+  text-decoration: none;
+  width: 85%;
+  margin: 0px 18px 18px 18px;
+}
+
+.work-title {
+  color: var(--main-text-color);
+}
+
+.work-description {
+  color: var(--main-subtext-color);
+}
+
+
+.work:hover .work-small {
+  background-size: 65%;
+}
+
+.work-small {
+  background-size: 50%;
+}
+
+/*----pictures----*/
+#streak-img{
+  background-image: url(../img/bigstreak.png);
+}
+
+#collab-img{
+  background-image: url(../img/teamwork.png);
+}
+
+#fork-img{
+  background-image: url(../img/hierarchical-structure.png);
+}
+
+#readme-img{
+  background-image: url(../img/writer.png);
+}
+
+#tutorial-img{
+  background-image: url(../img/certificate.png);
+}
+
+#top-img{
+  background-image: url(../img/award.png);
+}
+
+#superstar-img{
+  background-image: url(../img/start-up.png);
+}
+
+#baby-img{
+  background-image: url(../img/baby.png);
+}
+#vision-img{
+  background-image: url(../img/vision.png);
+}
+#stars-img{
+  background-image: url(../img/stars.png);
+}
