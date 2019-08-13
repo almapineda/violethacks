@@ -1,5 +1,5 @@
 <center><a href="https://devpost.com/software/gitlit-5zwep9"><img src="https://i.ibb.co/wwWhVQv/Screen-Shot-2019-08-13-at-12-41-16-AM.png" alt="Screen-Shot-2019-08-13-at-12-41-16-AM" border="0" /></a></center><br>
-<font size = 10>Click image above for a live demo!</font>
+<font size=5>Click image above for a live demo!</font>
 
 
 # Gitlit
