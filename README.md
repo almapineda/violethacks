@@ -1,8 +1,10 @@
-<center><a href="https://devpost.com/software/gitlit-5zwep9"><img src="https://i.ibb.co/wwWhVQv/Screen-Shot-2019-08-13-at-12-41-16-AM.png" alt="Screen-Shot-2019-08-13-at-12-41-16-AM" border="0" /></a></center>
+<center><a href="https://devpost.com/software/gitlit-5zwep9"><img src="https://i.ibb.co/wwWhVQv/Screen-Shot-2019-08-13-at-12-41-16-AM.png" alt="Screen-Shot-2019-08-13-at-12-41-16-AM" border="0" /></a></center><br>
+<font size = 10>Click image above for a live demo!</font>
+
 
 # Gitlit
 
-_Making GitHub a lifestyle_
+_Making GitHub a lifestyle!_
 
 Product of the VioletHacks hackathon from August 10-11th, 2019. Top 10.
 
