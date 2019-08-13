@@ -1,12 +1,10 @@
-<center><a href="https://devpost.com/software/gitlit-5zwep9"><img src="https://i.ibb.co/wwWhVQv/Screen-Shot-2019-08-13-at-12-41-16-AM.png" alt="Screen-Shot-2019-08-13-at-12-41-16-AM" border="0" /></a></center><br>
-<font size=5>Click image above for a live demo!</font>
-
+<a href="https://devpost.com/software/gitlit-5zwep9"><img src="https://i.ibb.co/wwWhVQv/Screen-Shot-2019-08-13-at-12-41-16-AM.png" alt="Screen-Shot-2019-08-13-at-12-41-16-AM" border="0" /></a><br>
 
 # Gitlit
 
 _Making GitHub a lifestyle!_
 
-Product of the VioletHacks hackathon from August 10-11th, 2019. Top 10.
+Product of the VioletHacks hackathon from August 10-11th, 2019. Top 10. **Click the image above for a live demo!**
 
 ### Development and Inspiration
 As college students, we utilize Github mostly as a means by which to share projects for classes or in an attempt to finesse a job. However, users that are beginning their Github journey and are not enrolled in classes might find Github to be a little intimidating. Our product, Gitlit, aims to gently introduce new users to Github and creates achievements that they can collect and grow their knowledge of the platform and programming!
